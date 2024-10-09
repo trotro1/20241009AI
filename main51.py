@@ -41,7 +41,7 @@ def init_page():
         page_title="Website Summarizer",
         page_icon="🤗"
     )
-    st.header("Website Summarizer 🤗")
+    st.header("Website Summarizer 🤗 TROTRO2024)
     st.sidebar.title("Options")
 
 
