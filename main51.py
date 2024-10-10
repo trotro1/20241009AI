@@ -58,16 +58,16 @@ def select_model(temperature=0):
             temperature=temperature,
             model_name="gpt-4o"
         )
-#    elif model == "Claude 3.5 Sonnet":
-#        return ChatAnthropic(
-#            temperature=temperature,
-#            model_name="claude-3-5-sonnet-20240620"
-#        )
-#    elif model == "Gemini 1.5 Pro":
-#        return ChatGoogleGenerativeAI(
-#            temperature=temperature,
-#            model="gemini-1.5-pro-latest"
-#        )
+    elif model == "Claude 3.5 Sonnet":
+        return ChatAnthropic(
+            temperature=temperature,
+            model_name="claude-3-5-sonnet-20240620"
+        )
+    elif model == "Gemini 1.5 Pro":
+        return ChatGoogleGenerativeAI(
+            temperature=temperature,
+            model="gemini-1.5-pro-latest"
+        )
 
 
 def init_chain():
